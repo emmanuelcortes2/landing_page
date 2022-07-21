@@ -1,0 +1,72 @@
+.logo > img{
+    width:25%;
+    float:left;
+}
+#navigation_bar {
+    display: inline-block;
+    padding: 0 3px;
+}
+#navigation_bar >ul {
+    display: inline-block;
+    float:right;
+    list-style-type: none;
+    
+}
+.nav-item {
+   display: inline;
+   padding: 5px;
+   font-size: large;
+}
+
+#info  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+.detail {
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+  text-align: left;
+  
+
+}
+.product1,.product2,.product3 {
+    display: block;
+  position: relative;
+  margin:1%;
+  float:left;
+  width:20%;
+  
+  background-color: lightgrey;
+    /* margin-top: 20px;  
+    font-size: 30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center; */
+}
+/* footer {
+    display: block;
+    justify-content: right;
+    
+    
+} */
+/* ul{
+    
+    list-style-type: none;
+    display: inline;
+    
+} */
+footer ul {
+    display: block;
+    position: relative;
+    margin: 1%;
+    float: left;
+    width: 23%;
+    height: 400px;
+    background-color: lightgrey;
+}
